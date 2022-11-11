@@ -32,5 +32,13 @@ Making a project for a Future Business Leaders of America (FBLA) competition
 	git status
 	git log
 
+==========Advanced Feature=====================
+git branch
+
+create a branch: git checkout -b [branch name]
+delete a branch 
+merge a branch
+switch a branch: git checkout ＜branchname＞
+
 
 
