@@ -37,8 +37,10 @@ git branch
 
 create a branch: git checkout -b [branch name]
 delete a branch 
-merge a branch
-switch a branch: git checkout ＜branchname＞
+merge a branch: git Merge [branch name that you want to merge with your current branch, usually main]
+switch a branch: git checkout ＜branchname> 
+
+
 
 
 
