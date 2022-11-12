@@ -36,6 +36,7 @@ Making a project for a Future Business Leaders of America (FBLA) competition
 git branch
 
 create a branch: git checkout -b [branch name]
+Push a branch to cloud (github): git push origin [branch name]
 delete a branch 
 merge a branch: git Merge [branch name that you want to merge with your current branch, usually main]
 switch a branch: git checkout ＜branchname> 
