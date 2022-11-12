@@ -42,6 +42,7 @@ merge a branch: git Merge [branch name that you want to merge with your current 
 switch a branch: git checkout ＜branchname> 
 
 
-
+================ [probably unnessary]
+If you want to point the local repository to another cloud repository: git remote add origin "https://github.com/eddleson/FBLA.git"
 
 
