@@ -1,0 +1,8 @@
+Reinstall eclipse with the Web developer option of Eclipse, not the normal IDE,
+
+Download Apache tomcat @https://tomcat.apache.org/download-10.cgi
+
+Go through the installation process with this video: https://www.youtube.com/watch?v=M3FW_ihCNWo&ab_channel=CSCORNERSunitaRai
+
+
+
