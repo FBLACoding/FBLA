@@ -1,0 +1,17 @@
+img.fblogo
+{
+display:inline-block;
+margin-left:auto;
+margin-right:auto;
+width:400px;
+height:312px;
+}
+#twoimages{text-align:center;}
+
+.twoimages {
+    tab-size: 80;
+}
+
+img {
+    border: 5px solid #000;
+  }

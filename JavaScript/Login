@@ -1,0 +1,38 @@
+var objPeople = [
+  {
+    username: "k1219852",
+    password: "Ktlg8394"
+  },
+  
+  {
+    username: "k1234567",
+    password: "Ktjd1234"
+  }
+  
+  
+]
+
+
+function dataTypesPrint() {
+  for(let i = 0; i < a.length; i++) {
+ document.getElementById("ya").innerHTML = a[i];
+}
+  
+}
+
+function getInfo() {
+  var username = document.getElementById("username").value;
+  var password = document.getElementById("password").value;
+  console.log("The user name is " + username + " The password is " + password);
+  
+  for (i = 0; i < objPeople.length; i++) {
+    if(username == objPeople[i].username && password == objPeople[i].password ) {
+      console.log("correct");
+      document.getElementById("output").innerHTML = "New text!";
+    } else {
+      console.log("incorrect");
+      document.getElementById("output").innerHTML = "wrong";
+    }
+  }
+  
+}
