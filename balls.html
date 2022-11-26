@@ -1,20 +1,33 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>daddysDomain</title>
-    <link rel="stylesheet" href="balls.css">
-    
-  </head>
-  
-  <body>
-    <h1>Login</h1>
-    <br>
-    <input type="text">Enter username</input>
-    <input type="text">Enter password</input>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="../js/balls.js"></script>
+    <link rel="stylesheet" href="../css/balls.css">
+    <title>Login Page</title>
+</head>
+<body>
 
-    <button id="button">
-      <a href="nextPage.html">Enter</a>
-    </button>
+    <div class="container">
+        <form action="">
 
-  </body>
+            <h1>Login</h1>
+
+            <div class="form-group">
+                <label for="">Email ID</label>
+                <input type="text" class="form-control" required>
+            </div>
+
+            <div class="form-group">
+                <label for="">Password</label>
+                <input type="password" class="form-control" required>
+            </div>
+
+            <input type="submit" class="button" value="Login">
+        </form>
+    </div>
+
+</body>
 </html>
