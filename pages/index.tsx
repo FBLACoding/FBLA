@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import styles from '../styles/Home.module.css'
+import React from 'react'
+import styles from './styles/Home.module.css'
 
 export default function Home() {
   return (
@@ -23,10 +24,10 @@ export default function Home() {
         <div className={styles.grid}>
           <a href="/student" className={styles.card}>
             <h2>Student Login &rarr;</h2>
-            <p>Certify your presense at school</p>
+            <p>Certify your presence at school</p>
           </a>
 
-          <a href="/teacher" className={styles.card}>
+          <a href="/teacher.js" className={styles.card}>
             <h2>Teacher Login &rarr;</h2>
             <p>Easily view and manage student attendance </p>
           </a>
